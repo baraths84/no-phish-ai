@@ -237,9 +237,9 @@ phishing_page_insights_schema = [
                             "description": "What is the likelihood this is a phishing page",
                             "enum": ["High", "Medium", "Low", "Unknown"]
                         },
-                         "security_score": {
+                         "threat_score": {
                             "type": "integer",
-                            "description": "What is the determined security score for the phishing page on a scale of 10 to 100. 100 being phishing and 10 being safe",
+                            "description": "What is the determined security score for the phishing page on a scale of 10 to 100. 100 being safe and secure and 10 being phishing",
                             "enum": ["10", "20","30","40","50","60","70","80","90","100"]
                         },
                          "security_summary": {
