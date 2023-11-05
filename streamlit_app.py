@@ -14,7 +14,7 @@ import requests
 import tldextract
 import tiktoken
 import whois
-#from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv, find_dotenv
 from pyppeteer import launch
 from pyppeteer.errors import TimeoutError
 from langchain.chat_models import ChatOpenAI
