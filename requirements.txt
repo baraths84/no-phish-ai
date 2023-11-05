@@ -1,0 +1,7 @@
+dnspython
+pyOpenSSL 
+requests 
+tldextract 
+tiktoken 
+python-whois
+pyppeteer
