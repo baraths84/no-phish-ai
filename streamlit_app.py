@@ -239,7 +239,7 @@ phishing_page_insights_schema = [
                         },
                          "threat_score": {
                             "type": "integer",
-                            "description": "What is the determined security score for the phishing page on a scale of 10 to 100. 100 being safe and secure and 10 being phishing",
+                            "description": "What is the determined security score for the phishing page on a scale of 10 to 100. 100 being not safe and 10 being not secure",
                             "enum": ["10", "20","30","40","50","60","70","80","90","100"]
                         },
                          "security_summary": {
