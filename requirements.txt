@@ -6,3 +6,4 @@ tldextract
 tiktoken 
 python-whois
 pyppeteer
+python-dotenv
