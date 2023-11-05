@@ -276,8 +276,8 @@ async def analyze_url(url):
     return phishing_insights_extractor_tool(constructed_input)
 
 def main():
-    st.title('URL Analysis Tool')
-    url = st.text_input('Enter the URL:', '')
+    st.title('No Phish AI')
+    url = st.text_input('Enter the URL to analyze:', '')
     if st.button('Analyze'):
         if url:
             results = asyncio.run(analyze_url(url))
